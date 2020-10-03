@@ -1,0 +1,25 @@
+{
+  "name": "recipe-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakobKIT/recipe-app.git"
+  },
+  "author": "Jakob Klamser & Maria Rohrmann",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.4"
+  },
+  "bugs": {
+    "url": "https://github.com/JakobKIT/recipe-app/issues"
+  },
+  "homepage": "https://github.com/JakobKIT/recipe-app#readme"
+}
