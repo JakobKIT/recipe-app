@@ -8,8 +8,10 @@ services:
             - mongo
         volumes:
             - "./:/usr/src/app"
+            - "reserved:/usr/src/app/node_modules"
     mongo:
         image: "mongo:latest"
         ports: 
             - "27017:27017"
-            
+volumes: 
+    reserved:
